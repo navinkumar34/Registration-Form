@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="container1">
+                <h3>Registeration Form</h3>
+                <div id="errormsg">
+                    <ul id="form-message">
+                    </ul>
+                </div>
+                <div id="form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" placeholder="Your age.." required>
+                    <label for="selectgen">Gender</label>
+                    <div id="selectgen">
+                        <input type="radio" id="male" name="gender" value="Male" checked><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female" ><label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="Other" ><label for="other">Other</label>
+                    </div>
+                    <label for="email">Email</label>
+                    <input type="email" id="emailadd" name="email" placeholder="john@example.com" required>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0000000000" required>
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                    </select>
+                    <label for="state">State</label>
+                    <select id="state" name="state" required>
+                        <option value="">Select State</option>
+                    </select>
+                    <label for="city">City</label>
+                    <select id="city" name="city" required>
+                        <option value="">Select City</option>
+                    </select>
+                    <label for="color">Favourite Color</label>
+                    <div id="color1">
+                        <input type="checkbox" id="blue" name="color" value="Blue" ><label for="blue">Blue</label>
+                        <input type="checkbox" id="red" name="color" value="Red"><label for="red">Red</label>
+                        <input type="checkbox" id="orange" name="color" value="Orange"><label for="orange">Orange</label>
+                        <input type="checkbox" id="black" name="color" value="Black"><label for="black">Black</label>
+                    </div>
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message" placeholder="Write something.."></textarea>
+                    <input type="submit" onclick="addRow()">
+                </div>
+            </div>
+            <div id="container2">
+                <table id="dataTable">
+                    <thead>
+                        <tr id="header">
+                            <td>Name</td>
+                            <td>Age</td>
+                            <td>Gender</td>
+                            <td>Phone</td>
+                            <td>Email</td>
+                            <td>Country</td>
+                            <td>State</td>
+                            <td>City</td>
+                            <td>Favourite Color</td>
+                            <td>Message</td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212F3D;
+}
+
+#container{
+    padding: 10px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#emailadd, #age, #phone, #selectgen ,#color1 {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;   
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #AEB6BF;
+    padding: 20px;
+    width: 40%;
+    float: left;
+}
+
+#container2 {
+    background-color: #212F3D;
+    width: 60%;
+    float:left;
+    padding-left: 10px;
+}
+td {
+    width: 5%;
+    text-align: center;
+}
+
+tr{
+    background-color: beige;
+}
+
+#header{
+    font-weight: bold;
+    background-color: aliceblue;
+}
+table{
+    border-radius: 5px;
+}
+
+#form-message{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    max-width: 250px;
+}
+
+#Message{
+    height:100px;
+}
+
+
